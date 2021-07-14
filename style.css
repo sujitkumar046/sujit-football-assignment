@@ -1,0 +1,29 @@
+/* banner styling */
+.banner{
+    background-color: #2D25A0;
+    display: flex;
+    padding: 5%;
+}
+
+
+.banner-half{
+    width: 50%;
+    padding-left:2.5%;
+}
+.banner img{
+    width: 100%;}
+.banner img:hover{
+    transform: rotate(-30deg);
+    transition: transform 1s ease-in-out 0.2s;
+}
+.banner h1{
+    font-size: 35px;
+    color: white;
+}
+.button {
+text-decoration: none;
+background-color: #E02C6D;
+padding: 5px 15px;
+color: white;
+font-weight: 700;
+}
