@@ -29,27 +29,27 @@ color: white;
 font-weight: 700;
 }
 /* Players section stying */
-.player img{
-    width:140px;
-    height: 110px;
-}
 .players-section{
-    display: flex;
     margin: auto;
     width: 80%;
-    justify-content: center;  
+    margin-top: 5%;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    align-items: center;
+    grid-column-gap:10px;
+}
+.player img{
+    width:140px;
+    height: 110px;
 }
 .player{
     box-shadow: 5px 5px 20px gainsboro;
-    margin: 2.5% 2.5% 2.5% 2.5%;}
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    padding: 6%;}
+
 .player h2{
-    font-size: 17px;
+    font-size: 15px;
 }
 .player p{
     font-size: 12px;
