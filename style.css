@@ -12,6 +12,7 @@
 }
 .banner img{
     width: 100%;}
+
 .banner img:hover{
     transform: rotate(-30deg);
     transition: transform 1s ease-in-out 0.2s;
@@ -26,4 +27,30 @@ background-color: #E02C6D;
 padding: 5px 15px;
 color: white;
 font-weight: 700;
+}
+/* Players section stying */
+.player img{
+    width:140px;
+    height: 110px;
+}
+.players-section{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: center;  
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    box-shadow: 5px 5px 20px gainsboro;
+    margin: 2.5% 2.5% 2.5% 2.5%;}
+.player h2{
+    font-size: 17px;
+}
+.player p{
+    font-size: 12px;
 }
