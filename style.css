@@ -1,16 +1,19 @@
-/* google font styling */
+/*-----------
+ google font styling
+ ------------ */
 body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* banner styling */
+/* --------------
+banner styling 
+----------------*/
 .banner-section{background-color: #2D25A0;
 }
 .banner{
     display: flex;
-    padding: 2.5%;
+    padding: 5%;
 }
-
 
 .banner-half{
     width: 50%;
@@ -24,8 +27,9 @@ body{
     transition: transform 1s ease-in-out 0.2s;
 }
 .banner h1{
-    font-size: 30px;
+    font-size: 35px;
     color: white;
+    margin-bottom: 0px;
 }
 .button {
 text-decoration: none;
@@ -37,7 +41,9 @@ font-size: 08px;
 }
 .button:hover{background-color: cornflowerblue;
 }
-/* Players section stying */
+/* ------------
+Players section stying 
+------------------*/
 .players-section{
     margin: auto;
     width: 80%;
@@ -64,7 +70,30 @@ font-size: 08px;
 .player p{
     font-size: 8px;
 }
-/* video section styling */
+/*---------- 
+highlight section styling
+------------- */
+.highlight{
+    display: flex;
+    padding: 6%;
+}
+.high-half{
+    width: 50%;
+    padding-left: 5%;
+}
+.high-half img{
+    width: 100%;
+}
+.high-half h2{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.high-half p{
+    font-size: 08px;
+}
+/* ------------
+video section styling 
+--------------------*/
 .vedio-secton{
     margin: auto;
     width: 100%;
@@ -88,7 +117,9 @@ font-size: 08px;
     border-radius: 30px;
 }
 
-/* footer section styling */
+/* -----------------
+footer section styling 
+---------------------*/
 .footer-section{
     display: flex;
     flex-direction: column;
@@ -106,22 +137,40 @@ font-size: 08px;
     font-size: 7px;
 }
 /* Making responsive using media */
-/* mobile devices */
-@media only screen and (max-width: 380px) {
+/*-------------
+ mobile devices
+ ----------------- */
+@media only screen and (max-width: 480px) {
+   
       .players{
           grid-template-columns: repeat(1,1fr);}
-      .player, .banner, .vedios {flex-direction: column;
+      .player, .banner, .vedios, .highlight {flex-direction: column;
     align-items: center;
     }
     .banner h1 {font-size: 25px;  
         margin-bottom: 0px;
     }
-    .banner-half{
+    .banner-half, .high-half, .video{
         width: 100%;
     }
     .banner img{
         padding-top: 15px;
     }
+    .video-text h2{
+        font-size: 10px;
+    }
+    .high-half img{
+        padding-top: 15px;
+    }
 } 
-    
+  /*-------------
+ Tablet devices
+ ----------------- */  
+ @media only screen and (min-width: 481px) and (max-width:600px){
+    .players{
+        grid-template-columns: repeat(2,1fr);}
+    .player{flex-direction: column;
+  align-items: center;
+  }
+ }
       
