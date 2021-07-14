@@ -28,7 +28,7 @@ banner styling
     transition: transform 1s ease-in-out 0.2s;
 }
 .banner h1{
-    /* font-size: 35px; */
+    font-size: 35px;
     color: white;
     margin-bottom: 0px;
 }
@@ -38,7 +38,7 @@ background-color: #E02C6D;
 padding: 5px 5px;
 color: white;
 font-weight: 500;
-/* font-size: 08px; */
+font-size: 08px;
 }
 .button:hover{background-color: cornflowerblue;
 }
@@ -57,8 +57,8 @@ Players section stying
     grid-column-gap:10px;
 }
 .player img{
-    /* width:140px;
-    height: 110px; */
+    width:140px;
+    height: 110px;
 }
 .player{
     box-shadow: 5px 5px 20px gainsboro;
@@ -66,10 +66,10 @@ Players section stying
     padding: 6%;}
 
 .player h3{
-    /* font-size: 13px; */
+    font-size: 13px;
 }
 .player p{
-    /* font-size: 8px; */
+    font-size: 8px;
 }
 /*---------- 
 highlight section styling
@@ -86,11 +86,11 @@ highlight section styling
     width: 100%;
 }
 .high-half h2{
-    /* font-size: 25px; */
+    font-size: 25px;
     margin-bottom: 0px;
 }
 .high-half p{
-    /* font-size: 08px; */
+    font-size: 08px;
 }
 /* ------------
 video section styling 
