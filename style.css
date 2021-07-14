@@ -148,6 +148,8 @@ footer section styling
     .players{
         grid-template-columns: repeat(1,1fr);}
     .player, .banner, .vedios, .highlight {flex-direction: column;
+        align-items: center;
+        justify-content: center;
   }
   .banner-half, .high-half, .video{
       width: 100%;
