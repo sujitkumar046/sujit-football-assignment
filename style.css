@@ -148,10 +148,6 @@ footer section styling
     .players{
         grid-template-columns: repeat(1,1fr);}
     .player, .banner, .vedios, .highlight {flex-direction: column;
-  align-items: center;
-  }
-  .banner h1 {font-size: 25px;  
-      margin-bottom: 0px;
   }
   .banner-half, .high-half, .video{
       width: 100%;
@@ -159,8 +155,6 @@ footer section styling
   .banner img{
       padding-top: 15px;
   }
-  .video-text h2{
-      font-size: 10px;
   }
   .high-half img{
       padding-top: 15px;
