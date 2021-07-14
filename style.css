@@ -4,10 +4,11 @@ body{
 }
 
 /* banner styling */
+.banner-section{background-color: #2D25A0;
+}
 .banner{
-    background-color: #2D25A0;
     display: flex;
-    padding: 5%;
+    padding: 2.5%;
 }
 
 
@@ -23,15 +24,16 @@ body{
     transition: transform 1s ease-in-out 0.2s;
 }
 .banner h1{
-    font-size: 35px;
+    font-size: 30px;
     color: white;
 }
 .button {
 text-decoration: none;
 background-color: #E02C6D;
-padding: 5px 15px;
+padding: 5px 5px;
 color: white;
-font-weight: 700;
+font-weight: 500;
+font-size: 08px;
 }
 .button:hover{background-color: cornflowerblue;
 }
@@ -103,3 +105,23 @@ font-weight: 700;
 .copyright p{
     font-size: 7px;
 }
+/* Making responsive using media */
+/* mobile devices */
+@media only screen and (max-width: 380px) {
+      .players{
+          grid-template-columns: repeat(1,1fr);}
+      .player, .banner, .vedios {flex-direction: column;
+    align-items: center;
+    }
+    .banner h1 {font-size: 25px;  
+        margin-bottom: 0px;
+    }
+    .banner-half{
+        width: 100%;
+    }
+    .banner img{
+        padding-top: 15px;
+    }
+} 
+    
+      
