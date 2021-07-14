@@ -144,32 +144,20 @@ footer section styling
 /*-------------
  mobile devices
  ----------------- */
-    @media only screen and (max-width: 480px) { 
-    .players{
-        grid-template-columns: repeat(1,1fr);}
-    .player, .banner, .vedios, .highlight {flex-direction: column;
-        align-items: center;
-        justify-content: center;
-  }
-  .banner-half, .high-half, .video{
-      width: 100%;
-  }
-  .banner img{
-      padding-top: 15px;
-  }
-  }
-  .high-half img{
-      padding-top: 15px;
-  }
-}
+    @media only screen and (max-width: 480px) {
+        .players{
+            grid-template-columns: repeat(1,1fr);
+            justify-content: space-evenly; }
+        .player, .banner, .vedios, .highlight {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;}
+      .banner-half, .high-half, .video{
+          width: 100%; }
+      .banner img{
+          padding-top: 15px;}
+      .high-half img{
+          padding-top: 15px;}
+    }
+ 
   
-  /*-------------
- Tablet devices
- ----------------- */  
- @media only screen and (min-width: 481px) and (max-width:600px){
-    .players{
-        grid-template-columns: repeat(2,1fr);}
-    .player{flex-direction: column;
-  align-items: center;
-  }
- }
