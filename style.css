@@ -33,12 +33,14 @@ padding: 5px 15px;
 color: white;
 font-weight: 700;
 }
+.button:hover{background-color: cornflowerblue;
+}
 /* Players section stying */
 .players-section{
     margin: auto;
     width: 80%;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .players{
     display: grid;
@@ -54,11 +56,34 @@ font-weight: 700;
     margin: 2.5% 2.5% 2.5% 2.5%;
     padding: 6%;}
 
-.player h2{
+.player h3{
     font-size: 13px;
 }
 .player p{
     font-size: 8px;
+}
+/* video section styling */
+.vedio-secton{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.video-text{
+    margin: auto;
+    text-align: center;
+     width: 50%;}
+
+.vedios{
+    display: flex;
+    justify-content: center;
+}
+.vedio{
+    width: 50%;
+    padding: 1.5%;
+}
+.vedio iframe{
+    width: 100%;
+    border-radius: 30px;
 }
 
 /* footer section styling */
