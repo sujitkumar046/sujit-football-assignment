@@ -28,14 +28,14 @@ banner styling
     transition: transform 1s ease-in-out 0.2s;
 }
 .banner h1{
-    font-size: 35px;
+    font-size: 50px;
     color: white;
     margin-bottom: 0px;
 }
 .button {
 text-decoration: none;
 background-color: #E02C6D;
-padding: 5px 5px;
+padding: 10px 40px;
 color: white;
 font-weight: 500;
 font-size: 08px;
