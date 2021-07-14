@@ -28,9 +28,8 @@ banner styling
     transition: transform 1s ease-in-out 0.2s;
 }
 .banner h1{
-    font-size: 50px;
+    font-size: 60px;
     color: white;
-    margin-bottom: 0px;
 }
 .button {
 text-decoration: none;
@@ -38,6 +37,7 @@ background-color: #E02C6D;
 padding: 10px 40px;
 color: white;
 font-weight: 500;
+font-size: 20px;
 }
 .button:hover{background-color: cornflowerblue;
 }
@@ -53,22 +53,22 @@ Players section stying
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap:10px;
+    grid-column-gap:0px;
 }
 .player img{
-    width:140px;
-    height: 110px;
+    width:280px;
+    height: 220px;
 }
 .player{
     box-shadow: 5px 5px 20px gainsboro;
     margin: 2.5% 2.5% 2.5% 2.5%;
-    padding: 6%;}
+    padding: 8%;}
 
 .player h3{
-    font-size: 13px;
+    font-size: 25px;
 }
 .player p{
-    font-size: 8px;
+    font-size: 17px;
 }
 /*---------- 
 highlight section styling
@@ -85,11 +85,11 @@ highlight section styling
     width: 100%;
 }
 .high-half h2{
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 0px;
 }
 .high-half p{
-    font-size: 08px;
+    font-size: 17px;
 }
 /* ------------
 video section styling 
@@ -102,7 +102,11 @@ video section styling
 .video-text{
     margin: auto;
     text-align: center;
-     width: 50%;}
+     width: 50%;
+    }
+.video-text h2{
+    font-size: 40px;
+}
 
 .vedios{
     display: flex;
@@ -110,7 +114,7 @@ video section styling
 }
 .vedio{
     width: 50%;
-    padding: 1.5%;
+    padding: 5%;
 }
 .vedio iframe{
     width: 100%;
@@ -126,43 +130,43 @@ footer section styling
     align-items: center;
 }
 .logo img{
-    width: 180px;
-    height: 50px;
+    width: 350px;
+    height: 150px;
 }
 .social img{
-    width: 15px;
-    height: 15px;
+    width: 40px;
+    height: 40px;
 }
 .copyright p{
-    font-size: 7px;
+    font-size: 15px;
 }
 /* Making responsive using media */
 /*-------------
  mobile devices
  ----------------- */
-@media only screen and (max-width: 480px) {
-   
-      .players{
-          grid-template-columns: repeat(1,1fr);}
-      .player, .banner, .vedios, .highlight {flex-direction: column;
-    align-items: center;
-    }
-    .banner h1 {font-size: 25px;  
-        margin-bottom: 0px;
-    }
-    .banner-half, .high-half, .video{
-        width: 100%;
-    }
-    .banner img{
-        padding-top: 15px;
-    }
-    .video-text h2{
-        font-size: 10px;
-    }
-    .high-half img{
-        padding-top: 15px;
-    }
-} 
+    @media only screen and (max-width: 480px) { 
+    .players{
+        grid-template-columns: repeat(1,1fr);}
+    .player, .banner, .vedios, .highlight {flex-direction: column;
+  align-items: center;
+  }
+  .banner h1 {font-size: 25px;  
+      margin-bottom: 0px;
+  }
+  .banner-half, .high-half, .video{
+      width: 100%;
+  }
+  .banner img{
+      padding-top: 15px;
+  }
+  .video-text h2{
+      font-size: 10px;
+  }
+  .high-half img{
+      padding-top: 15px;
+  }
+}
+  
   /*-------------
  Tablet devices
  ----------------- */  
@@ -173,4 +177,3 @@ footer section styling
   align-items: center;
   }
  }
-      
